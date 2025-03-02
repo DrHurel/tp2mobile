@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#707070</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#00C2CB</color>
+    <color name="blue">#2D3777</color>
+    <color name="soft_blue">#007bff</color>
+    <color name="beige">#FFFEF8</color>
+    <color name="green_500">#1DD077</color>
+    <color name="green_700">#37FFB9</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="red">#CEFF416E</color>
+    <color name="orange">#FFBD59</color>
+    <color name="bg">#EFF5FF</color>
+    <color name="border_color">#D6D9E6</color>
+    <color name="denim">#022959</color>
+    <color name="grey">#9699AA</color>
+    <color name="light_blue">#FFFFFFFF</color>
+    <color name="light_grey">#FFFFFFFF</color>
+    <color name="pink">#FFFFFFFF</color>
+    <color name="purple">#FFFFFFFF</color>
+    <color name="red_errors">#FFFFFFFF</color>
+    <color name="sky_blue">#FFFFFFFF</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="denim_dark">#1565C0</color>
+    <color name="ripple_color">#33FFFFFF</color>
+</resources>

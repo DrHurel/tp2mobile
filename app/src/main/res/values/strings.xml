@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">tp2mobile</string>
+    <string name="homepage_title">Home</string>
+
+    <string name="proximity_image">Proximity sensor image indicator</string>
+
+
+    <string name="btn_home">Home</string>
+    <string name="moving_up">Moving Up</string>
+    <string name="moving_down">Moving Down</string>
+    <string name="moving_left">Moving Left</string>
+    <string name="moving_right">Moving Right</string>
+    <string name="stable">Stable</string>
+    <string name="country_info">Country Info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
