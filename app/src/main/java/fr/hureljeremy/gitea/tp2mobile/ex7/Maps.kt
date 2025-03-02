@@ -29,6 +29,10 @@ class Maps : AppCompatActivity() {
             setupLocationUpdates()
         }
 
+        override fun onServiceDisconnected(name: ComponentName?) {
+            return
+        }
+
 
     }
 
@@ -36,7 +40,7 @@ class Maps : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         Configuration.getInstance().apply {
-            userAgentValue = packageName
+            userAgentValue = packageName // Set a unique user agent
         }
 
         setContentView(R.layout.activity_maps)
@@ -58,6 +62,7 @@ class Maps : AppCompatActivity() {
             1
         )
 
+        // Bind to GPS Service
         Intent(this, GpsService::class.java).also { intent ->
             bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE)
         }

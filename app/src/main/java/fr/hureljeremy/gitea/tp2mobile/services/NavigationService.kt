@@ -25,10 +25,7 @@ class NavigationService : Service() {
 
 
     fun navigate(context: Context, page: String, apply: Bundle? = null) {
-        if (currentDestination == page) {
-            Log.d("NavigationService", "Already on $page")
-            return
-        }
+
         val destination = destinations[page]
         if (destination != null) {
             this.currentDestination = page

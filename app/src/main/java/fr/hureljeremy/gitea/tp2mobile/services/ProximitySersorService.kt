@@ -67,6 +67,9 @@ class ProximitySensorService : Service(), SensorEventListener {
         }
     }
 
+    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
+        return // not used
+    }
 
 
     override fun onDestroy() {
